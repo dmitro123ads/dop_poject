@@ -1,0 +1,54 @@
+:root{
+    --base_color: #FFFFFF;
+    --main_text: Hammersmith One;
+    --logo_text: Baskervville SC;
+}
+
+
+
+body{
+    background-image: url(./images/BG.webp);
+
+    background-size: 100%;
+}
+header{
+    display: flex;
+}
+.logo{
+    display: flex;
+    font-family: var(--logo_font);
+    color: var(--base_color);
+    font-weight: normal;
+    margin-right: 420px;
+    margin-left: 60px;
+    align-self: center;
+    letter-spacing: 3px;
+    
+}
+nav{
+    flex-direction: row;
+    align-self: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    
+}
+nav a{
+    color: var(--base_color);
+    text-decoration: none;
+    font-family: var(--main_text);
+}
+.account{
+    display: flex;
+    align-self: center;
+    height: 24px;
+    margin-left: 450px;
+    gap: 10px;
+}
+.account a{
+    color: var(--base_color);
+    text-decoration: none;
+    font-family: var(--main_text);
+}
