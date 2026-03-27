@@ -2,9 +2,14 @@
     --base_color: #FFFFFF;
     --main_text: Hammersmith One;
     --logo_text: Baskervville SC;
+    --hiking_color: rgb(226, 226, 96);
+    --bg_color: #0B1D26;
 }
 
-
+*{
+    padding: 0 ;
+    margin: 0;
+}
 
 body{
     background-image: url(./images/BG.webp);
@@ -51,4 +56,55 @@ nav a{
     color: var(--base_color);
     text-decoration: none;
     font-family: var(--main_text);
+}
+.hero{
+    color: var(--base_color);
+    width: 950px;
+    height: 200px;
+    margin: 0 ;
+    margin-left: 50ch;
+    margin-top: 150px;
+    margin-bottom: 940px;
+}
+.hiking{
+color: var(--hiking_color);
+display: flex;
+}
+.hiking_text{
+    color: var(--hiking_color);
+    letter-spacing: 6px;
+}
+.hero h2{
+    font-size: 88px;
+    font-family: var(--logo_font);
+    font-weight: normal;
+    margin: 0 auto;
+}
+.scroll{
+    font-family: var(--main_text);
+}
+.artickes{
+    background-color: var(--bg_color);
+    margin: 0 auto;
+    color: var(--base_color);
+}
+.level{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+.level div{
+    display: block;
+    font-size: 30px;
+}
+.level img{
+    height: 100%;
+    width: 400px;
+    margin-left: 75px;
+}
+.level h2{
+    margin-bottom: 20px;
+    font-size: 65px;
+    font-family: var(--logo_font);
+    font-weight: normal;
 }
