@@ -21,7 +21,7 @@ header{
 }
 .logo{
     display: flex;
-    font-family: var(--logo_font);
+    font-family: var(--logo_text);
     color: var(--base_color);
     font-weight: normal;
     margin-right: 420px;
@@ -92,19 +92,39 @@ display: flex;
     display: flex;
     width: 1000px;
     margin: 0 auto;
+    margin-bottom: 150px;
+    padding-bottom: 150px;
 }
 .level div{
     display: block;
     font-size: 30px;
 }
 .level img{
-    height: 100%;
-    width: 400px;
     margin-left: 75px;
 }
-.level h2{
+.artickl_title{
     margin-bottom: 20px;
     font-size: 65px;
-    font-family: var(--logo_font);
+    font-family: var(--logo_text);
     font-weight: normal;
+}
+.artickl_text{
+    font-size: 23px;
+    font-family: var(--main_text);
+    line-height: 32px;
+}
+.link{
+    text-decoration: none;
+    color: var(--hiking_color);
+    font-size: 20px;
+}
+.level_reversed{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    padding-bottom: 150px;
+}
+.level_reversed img{
+    margin-right: 75px;
 }
